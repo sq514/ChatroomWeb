@@ -1,0 +1,120 @@
+.chatroomWrapper{
+    height:90vh;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.userList{
+    width:25%;
+    padding-left:3%;
+    background-color:skyblue;
+    height:100%;
+    float: left;
+
+}
+ul{
+    list-style-type:none;
+    padding-top:10%;
+    padding-left:0;
+}
+li{
+    background-color:white;
+    width:100%;
+
+    margin-top:3%;
+    font-size:20px;
+}
+.userList img{
+    margin-right: 10px;
+}
+.chatroomHeader{
+    height:10%;
+    background-color: aquamarine;
+}
+.chatroom{
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+    height:90%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:black;
+}
+.chatArea{
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+.chatContent{
+    height:70%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:black;
+    overflow: auto;
+}
+.chatInputArea{
+    background:yellow;
+    height:30%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:black;
+}
+.inputArea{
+    background-color: blue;
+    height:100%;
+}
+.inputArea textarea{
+    height:100%;
+    width: 100%;
+    top: 0;
+}
+.inputArea button{
+    height: 50px;
+    width: 100px;
+    color: red;
+    position: relative;
+    left: 85%;
+    bottom: 100px;
+}
+
+.otherMessage{
+    width:40%;
+    position: relative;
+    overflow-wrap: break-word;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    left: 5%;
+    height: 20%;
+}
+.otherMessage img{
+    margin-right: 20px;
+    float: left;
+}
+.myMessage img{
+    margin-left: 20px;
+    float: right;
+}
+.myMessage{
+    width:40%;
+    height: 20%;
+    position: relative;
+    overflow-wrap: break-word;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    left: 55%;
+}
+
+.myMessage p{
+    width: 80%;
+    float: left;
+}
+
+.otherMessage p{
+    width: 80%;
+    float: right;
+}

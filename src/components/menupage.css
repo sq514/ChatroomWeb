@@ -1,0 +1,40 @@
+
+.menuWrapper{
+    height: 100vh;
+}
+
+.menuHeaderUsername{
+    float: left;
+    padding-left:5%;
+    padding-top:2%;
+}
+.menuHeaderUsername h1{
+    font-weight:200;
+    font-size: 1.5em;
+    font-family: Arial;
+    background-color:lightpink;
+}
+
+.menuHeaderName{
+    float:right;
+    padding-right:5%;
+    padding-top:2%;
+}
+div h1:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+.formWrapper{
+    padding-top:8%;
+    width: 30%;
+    padding-left:5%;
+}
+
+.createButton{
+    position:relative;
+    padding-top:5%;
+    padding-left:5%;
+}
+
+
